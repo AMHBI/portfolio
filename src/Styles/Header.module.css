@@ -30,6 +30,8 @@
   
   .menuContainer a {
     text-decoration: none;
+    font-size: large;
+    font-weight: bold;
     color: #ffffff;
   }
   
@@ -54,4 +56,7 @@
   
   .socialContainer img {
     width: 2rem;
+    background-color: #ffffff;
+    padding: 0.7rem;
+    border-radius: 50%;
   }
