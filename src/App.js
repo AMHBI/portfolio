@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route ,Routes } from 'react-router-dom';
+import Header from './Components/Header';
 import Cards from "./Components/Cards";
 import Landing from "./Components/Landing";
 import Contact from "./Components/Contact";
@@ -15,7 +16,7 @@ function App() {
     </Routes>
   return (
     <div className="App">
-      
+      <Header />
     </div>
   );
 }
