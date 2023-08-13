@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  height: 50%;
+  background-color: white;
+  margin: 2rem;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+}
+.imgWrapper {
+  width: 50%;
+}
+.imgWrapper img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.textWrapper {
+  width: 50%;
+  padding: 0 2rem;
+  text-align: left;
+}
+.textWrapper h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0.2rem;
+}
+.textWrapper p {
+  margin: 0 0 1em 0;
+  text-align: justify;
+}
+.textWrapper button {
+  background-color: #003566;
+  padding: 0.6rem 1rem;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+.textWrapper a {
+  text-decoration: none;
+    font-size: medium;
+    font-weight: 400;
+  color: #ffffff;
+}
+.textWrapper a:hover{
+color: #FFC300 ;
+}
+.textWrapper button:hover{
+    color: #001D3D;
+}
